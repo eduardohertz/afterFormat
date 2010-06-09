@@ -29,7 +29,7 @@ SOFTWARES E CONFIGURA&Ccedil;&Otilde;ES
     * Adiciona a linha `alias sudo='sudo env PATH=\$PATH'` ao arquivo `~/.bashrc` para possibilitar a chamada de comandos como `rake` com o `sudo`
 * **Rails**             - Ambiente para desenvolvimento com Rails (para cada Ruby escolhido)
     * Instala os pacotes: *bcrypt, libxml2, libxml2-dev, libxslt1-dev*
-    * Instala as gems: *rake, rails, haml, formtastic, inherited_resources, database_cleaner, bcrypt-ruby, will_paginate, factory_girl, brazilian-rails, gherkin, cucumber-rails, webrat, rspec-rails, mongrel, capistrano, authlogic, remarkable_rails*
+    * Instala as gems (sem rdoc e ri): *rake, rails, haml, formtastic, inherited_resources, database_cleaner, bcrypt-ruby, will_paginate, factory_girl, brazilian-rails, gherkin, cucumber-rails, webrat, rspec-rails, mongrel, capistrano, authlogic, remarkable_rails*
 * **Python**            - Ferramentas para desenvolvimento python
     * Instala os pacotes: *ipython, python-dev*
     * Instala o distribute, pip, virtualenv e virtualenvwrapper

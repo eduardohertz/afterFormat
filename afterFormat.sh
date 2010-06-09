@@ -147,47 +147,47 @@ do
             if [ "$ruby18" -eq 1 ]
             then
                 sudo apt-get install -y bcrypt libxml2 libxml2-dev libxslt1-dev
-                sudo gem1.8 install rake
-                sudo gem1.8 install rails
-                sudo gem1.8 install haml
-                sudo gem1.8 install formtastic
-                sudo gem1.8 install inherited_resources
-                sudo gem1.8 install database_cleaner
-                sudo gem1.8 install bcrypt-ruby
-                sudo gem1.8 install will_paginate
-                sudo gem1.8 install factory_girl
-                sudo gem1.8 install brazilian-rails
-                sudo gem1.8 install gherkin
-                sudo gem1.8 install cucumber-rails
-                sudo gem1.8 install webrat
-                sudo gem1.8 install rspec-rails
-                sudo gem1.8 install mongrel
-                sudo gem1.8 install capistrano
-                sudo gem1.8 install authlogic
-                sudo gem1.8 install remarkable_rails
+                sudo gem1.8 install rake --no-ri --no-rdoc
+                sudo gem1.8 install rails --no-ri --no-rdoc
+                sudo gem1.8 install haml --no-ri --no-rdoc
+                sudo gem1.8 install formtastic --no-ri --no-rdoc
+                sudo gem1.8 install inherited_resources --no-ri --no-rdoc
+                sudo gem1.8 install database_cleaner --no-ri --no-rdoc
+                sudo gem1.8 install bcrypt-ruby --no-ri --no-rdoc
+                sudo gem1.8 install will_paginate --no-ri --no-rdoc
+                sudo gem1.8 install factory_girl --no-ri --no-rdoc
+                sudo gem1.8 install brazilian-rails --no-ri --no-rdoc
+                sudo gem1.8 install gherkin --no-ri --no-rdoc
+                sudo gem1.8 install cucumber-rails --no-ri --no-rdoc
+                sudo gem1.8 install webrat --no-ri --no-rdoc
+                sudo gem1.8 install rspec-rails --no-ri --no-rdoc
+                sudo gem1.8 install mongrel --no-ri --no-rdoc
+                sudo gem1.8 install capistrano --no-ri --no-rdoc
+                sudo gem1.8 install authlogic --no-ri --no-rdoc
+                sudo gem1.8 install remarkable_rails --no-ri --no-rdoc
                 rails=1
             fi
             if [ "$ruby19" -eq 1 ]
             then
                 sudo apt-get install -y bcrypt libxml2 libxml2-dev libxslt1-dev
-                sudo gem1.9.1 install rake
-                sudo gem1.9.1 install rails
-                sudo gem1.9.1 install haml
-                sudo gem1.9.1 install formtastic
-                sudo gem1.9.1 install inherited_resources
-                sudo gem1.9.1 install database_cleaner
-                sudo gem1.9.1 install bcrypt-ruby
-                sudo gem1.9.1 install will_paginate
-                sudo gem1.9.1 install factory_girl
-                sudo gem1.9.1 install brazilian-rails
-                sudo gem1.9.1 install gherkin
-                sudo gem1.9.1 install cucumber-rails
-                sudo gem1.9.1 install webrat
-                sudo gem1.9.1 install rspec-rails
-                sudo gem1.9.1 install mongrel
-                sudo gem1.9.1 install capistrano
-                sudo gem1.9.1 install authlogic
-                sudo gem1.9.1 install remarkable_rails
+                sudo gem1.9.1 install rake --no-ri --no-rdoc
+                sudo gem1.9.1 install rails --no-ri --no-rdoc
+                sudo gem1.9.1 install haml --no-ri --no-rdoc
+                sudo gem1.9.1 install formtastic --no-ri --no-rdoc
+                sudo gem1.9.1 install inherited_resources --no-ri --no-rdoc
+                sudo gem1.9.1 install database_cleaner --no-ri --no-rdoc
+                sudo gem1.9.1 install bcrypt-ruby --no-ri --no-rdoc
+                sudo gem1.9.1 install will_paginate --no-ri --no-rdoc
+                sudo gem1.9.1 install factory_girl --no-ri --no-rdoc
+                sudo gem1.9.1 install brazilian-rails --no-ri --no-rdoc
+                sudo gem1.9.1 install gherkin --no-ri --no-rdoc
+                sudo gem1.9.1 install cucumber-rails --no-ri --no-rdoc
+                sudo gem1.9.1 install webrat --no-ri --no-rdoc
+                sudo gem1.9.1 install rspec-rails --no-ri --no-rdoc
+                sudo gem1.9.1 install mongrel --no-ri --no-rdoc
+                sudo gem1.9.1 install capistrano --no-ri --no-rdoc
+                sudo gem1.9.1 install authlogic --no-ri --no-rdoc
+                sudo gem1.9.1 install remarkable_rails --no-ri --no-rdoc
                 rails=1
             fi
         else
